@@ -1,0 +1,43 @@
+# ── Large data files (too big for GitHub, >100MB limit) ─────────────────────
+dataset/member2_handoff/best_baseline_model.joblib
+dataset/member2_handoff/X_train.npy
+dataset/member2_handoff/y_train.npy
+dataset/member2_handoff/X_test.npy
+dataset/member2_handoff/y_test.npy
+
+# ── Raw KronoDroid parquet files (large raw data) ────────────────────────────
+dataset/*.parquet
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Jupyter checkpoints ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ── NOTE: The following ARE included (important project files) ────────────────
+# member2_work/*.py          (all training code)
+# member3_handoff/           (all handoff files including .pt checkpoint)
+# dataset/member2_handoff/feature_preprocessor.joblib  (small, 16KB)
+# dataset/member2_handoff/anova_selector.joblib        (small, 3KB)
+# dataset/member2_handoff/selected_feature_names.csv   (small, 2KB)
+# dataset/unseen_family_holdout/                       (all unseen family data)
+# All .md documentation files
